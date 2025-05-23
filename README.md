@@ -12,8 +12,7 @@ A React application showcasing a smooth and responsive bottom sheet (modal-like 
 
 ## 🖥️ Demo
 
-🔗 **Live Demo:** [https://reactbottomsheet.netlify.app/](https://reactbottomsheet.netlify.app/)
-
+![Bottom Sheet Demo](https://user-images.githubusercontent.com/your-placeholder/demo-gif.gif)
 
 ## 📁 Project Structure
 
@@ -29,28 +28,13 @@ A React application showcasing a smooth and responsive bottom sheet (modal-like 
 └── README.md
 ## 🛠️ Installation
 
-1. **Clone the repository**
-   ```bash
+1. **Clone the repository** 
    git clone https://github.com/Sumant3086/Flam-Assignment.git
    cd bottom-sheet-demo
-Install dependencies
-
-bash
-Copy
-Edit
-npm install
-Run the app
-
-bash
-Copy
-Edit
+Install dependencies 
+npm install 
 npm start
-Run tests
-
-bash
-Copy
-Edit
-npm test
+Run tests 
 🧪 Testing
 The app uses React Testing Library for unit tests. Two test files are provided:
 
@@ -69,10 +53,7 @@ react-dom
 
 📌 Snap Points Logic
 The getNearestSnapPoint(currentPosition, snapPoints) function calculates the closest snap point to a given vertical position, enabling natural snapping behavior.
-
-js
-Copy
-Edit
+ 
 export function getNearestSnapPoint(current, snapPoints) {
   return snapPoints.reduce((prev, curr) =>
     Math.abs(curr - current) < Math.abs(prev - current) ? curr : prev
