@@ -1,0 +1,100 @@
+.bottom-sheet-container {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  overflow: hidden;
+}
+
+.content {
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+}
+
+.content h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.content p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.controls {
+  position: fixed;
+  bottom: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 1001;
+}
+
+.controls button {
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: background-color 0.2s ease;
+}
+
+.controls button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.bottom-sheet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background-color: white;
+  border-radius: 20px 20px 0 0;
+  will-change: transform;
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  outline: none;
+  user-select: none;
+}
+
+.bottom-sheet.dragging {
+  cursor: grabbing;
+}
+
+.bottom-sheet:not(.dragging) {
+  cursor: grab;
+}
+
+.handle {
+  width: 60px;
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+  margin: 12px auto;
+  transition: background-color 0.2s ease;
+}
+
+.sheet-content {
+  padding: 20px 30px;
+  height: calc(100% - 30px);
+  overflow-y: auto;
+}
+
+.sheet-content h2 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.sheet-content p {
+  color: #666;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
