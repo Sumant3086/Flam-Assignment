@@ -12,7 +12,8 @@ A React application showcasing a smooth and responsive bottom sheet (modal-like 
 
 ## 🖥️ Demo
 
-![Bottom Sheet Demo](https://user-images.githubusercontent.com/your-placeholder/demo-gif.gif)
+🔗 **Live Demo:** [https://reactbottomsheet.netlify.app/](https://reactbottomsheet.netlify.app/)
+
 
 ## 📁 Project Structure
 
@@ -30,7 +31,7 @@ A React application showcasing a smooth and responsive bottom sheet (modal-like 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/bottom-sheet-demo.git
+   git clone https://github.com/Sumant3086/Flam-Assignment.git
    cd bottom-sheet-demo
 Install dependencies
 
@@ -85,13 +86,6 @@ Feel free to open an issue or submit a pull request.
 This project is licensed under the MIT License.
 
 Made with ❤️ by Sumant
-
----
- 
- 
-
-
-
 
 
 
