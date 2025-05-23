@@ -53,8 +53,7 @@ react-dom
 
 📌 Snap Points Logic
 The getNearestSnapPoint(currentPosition, snapPoints) function calculates the closest snap point to a given vertical position, enabling natural snapping behavior.
-  
-}
+   
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to open an issue or submit a pull request.
