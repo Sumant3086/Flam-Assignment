@@ -12,7 +12,7 @@ A React application showcasing a smooth and responsive bottom sheet (modal-like 
 
 ## 🖥️ Demo
 
-![Bottom Sheet Demo](https://user-images.githubusercontent.com/your-placeholder/demo-gif.gif)
+![Bottom Sheet Demo](https://reactbottomsheet.netlify.app/)
 
 ## 📁 Project Structure
 
