@@ -11,7 +11,6 @@ A React application showcasing a smooth and responsive bottom sheet (modal-like 
 - Simple and clean UI
 
 ## 🖥️ Demo
-## 🖥️ Demo
 
 [Bottom Sheet Demo](https://reactbottomsheet.netlify.app/)
 
